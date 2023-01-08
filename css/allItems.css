@@ -1,0 +1,71 @@
+body {
+            font-family: "open sans", sans-serif;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color:#EAEAEA ;
+        }
+
+        /* Bootstrap row Modification */
+
+        .dashboard-card-container {
+            padding: 0 5% 0 5% ;
+            min-width: 500px;
+            max-width: 500px;
+        }
+
+        .dashboard-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 16px;
+            position: relative;
+        }
+
+        .dashboard-card h5 {
+            display: inline-block;
+            font-size: 1.5rem;
+        }
+
+        .dashboard-card a {
+            text-decoration: none;
+            position: absolute;
+            right: 10px;
+        }
+
+        .transaction-row {
+            border-radius: 4px;
+            padding: 0 8px 0 8px;
+            position: relative;
+            height: 40px;
+            margin-bottom: 8px;
+
+        }
+
+        .transaction-row-odd {
+            background-color: #DBE2EF;
+        }
+
+        .transaction-row .transaction-wallet {
+            display: flex;
+            position: absolute;
+            right: 2px;
+            bottom: -2.5px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .add-transaction-btn {
+            height: 40px;
+            width: 40px;
+            border-radius: 1000px;
+            position: absolute;
+            right: 16px;
+            bottom: 16px;
+            background-color: #FFEB59;
+            border: #FFEB59;
+            font-size: 2em;
+            color: white;
+            display: flex
+            align-items: center;
+            justify-content: center;
+        }

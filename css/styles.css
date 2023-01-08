@@ -1,0 +1,216 @@
+body{
+    font-family: 'open sans', sans-serif;
+  
+  }
+  
+  #title{
+    /* background-color: #0C0C5A; */
+    background-color: #22229A;
+
+    color: white;
+  
+  }
+  
+  .container-fluid{
+    /* top | horizontal | bottom */
+    padding: 2% 8% 18%;
+  }
+  
+  
+  /* Headings */
+  .big-heading{
+    font-family: 'charis sil', serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  h1, h2, h3, h4, h5 , h6{
+    font-family: 'charis sil',sans;
+    font-weight: 900;
+  }
+  
+  
+  
+  h2{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  h3{
+    font-size: 1.5rem;
+  }
+  
+  p{
+    color: #8f8f8f;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar{
+    padding:0 0 2.5rem;
+  }
+  
+  .navbar-brand{
+    height:150px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+  
+  }
+  
+  .nav-item{
+    padding: 0 10px;
+  }
+  
+  .nav-link{
+    font-size: 1.05rem;
+    font-weight: 100;
+  }
+  
+  .login-register{
+    margin:auto 0 auto 50px;
+  }
+  @media (max-width:992px){
+    .login-register{
+        margin:auto 0 auto 0;
+      }
+  }
+  
+  .login-reg-btn{
+    margin:0 5px;
+  }
+  
+  /* Download Buttons */
+  .download-btn{
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title image */
+  .title-img{
+    /* width: 60%;
+    transform: rotate(25deg); */
+    /* right: 30%; */
+    border-radius:20px;
+    width:inherit;
+    position: absolute;
+    width: 95%;
+  }
+  
+  /* Features Section */
+  
+  #features{
+    padding: 7% 15%;
+    position:relative;
+    background-color: white;
+  }
+  
+  
+  .feature{
+    text-align: center;
+    padding: 8%;
+  }
+  
+  .feature-fas{
+    color:  #438be1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-fas:hover{
+    color: #22229A;
+  }
+  
+  /* Testimonials Section */
+  #testimonials{
+    
+    /* background-color: #7896c2; */
+    background-color: #3f72af;
+
+    color: white;
+    text-align: center;
+  }
+  
+  .carousel-item{
+      padding:7% 15%;
+  }
+  
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  
+  /* Press Section */
+  
+  #press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  /* Pricing Section */
+  
+  .pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .pricing-column{
+    padding: 3% 2%;
+  }
+
+
+  /* company Section */
+  #company  {
+    padding: 7% 15%;
+    /* text-align: center; */
+  }
+  .view-img{
+    width:90%;
+  }
+  /* Call To Action */
+  #cta{
+    /* background-color: #ff4c68; */
+    background-color: #ffce3ae8;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+  }
+  h3.ctah3{
+    font-size: 3.5rem;
+    line-height:  1.5;
+  }
+  
+  
+  /* Footer */
+  
+  #footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+  }
+  
+  .footer-fab{
+    margin: 20px 10px;
+  }
+  
+  @media (max-width:1028px)  {
+  
+    #title{
+      text-align: center;
+    }
+  
+    .title-img{
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
